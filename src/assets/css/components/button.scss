@@ -1,0 +1,156 @@
+button{
+    transition: all .5;
+    &:focus,&:active,&:hover{
+        // background: $gold;
+        box-shadow: none;
+        outline: none;
+    }
+}
+.menu-btn{
+    background-color: #DAE0DB;
+    color: $black!important;
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 5px 15px!important;
+    box-shadow: 0px 0px 1px 8px #f0eaea;
+    font-weight: 700!important;
+    transition: all .5;
+
+    &:focus,&:active,&:hover{
+        background-color: #0A5AD5;
+        color: $white!important;
+        outline: none;
+    }
+}
+// Product List
+
+.MixMediaBtn{
+    background-color: #ececec;
+    color: #000;
+    width: 100%;
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 10px 10px;
+
+    &:focus,&:active,&:hover{
+        background-color: #0001fc;
+        color: #fff;
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+.viewMore{
+    background-color: #0001fc;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    outline: unset;
+    font-size: 1.2rem;
+    border-width: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.btn-login{
+    
+    background-color: #ECECEC;
+    color: $black;
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 10px 25px;
+    font-weight: 600;
+
+    &:focus,&:active,&:hover{
+        
+        background-color: #ECECEC;
+        color: #000;
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+.filterBtn{
+    background-color: #0001FC;
+    color: #fff;
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 10px 20px;
+
+    &:focus,&:active,&:hover{
+        background-color: #0001fc;
+        color: #fff;
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+.BuyNow{
+    background-color: #0001FC;
+    color: #fff;
+    width: 100%;
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 10px 10px;
+
+    &:focus,&:active,&:hover{
+        background-color: #0001fc;
+        color: #fff;
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+.MakeOffer{
+    background-color: #ECECEC;
+    color: #000;
+    width: 100%;
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 10px 10px;
+
+    &:focus,&:active,&:hover{
+        
+        background-color: #ECECEC;
+        color: #000;
+        box-shadow: none;
+        outline: none;
+    }
+}
+.btnShare{
+    
+    background-color: transparent;
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 7px 10px;
+
+    &:focus,&:active,&:hover{
+        
+        background-color: #ECECEC;
+        color: #000;
+        box-shadow: none;
+        outline: none;
+    }
+}
+.description-card{
+    border: 1px solid #200A0A;
+    border-radius: 10px;
+    height: 10rem;
+}
+
+.walletConnectBtn{
+    background-color: #ECECEC;
+    color: #000;
+    width: 100%;
+    border: 1px solid #B8AEAE;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 5px 25px;
+
+    &:focus,&:active,&:hover{
+        
+        background-color: #ECECEC;
+        color: #000;
+        box-shadow: none;
+        outline: none;
+    }
+}

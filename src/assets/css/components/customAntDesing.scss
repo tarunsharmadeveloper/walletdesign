@@ -1,0 +1,247 @@
+.filterBox .ant-input {
+    border-color: #000 !important;
+    border-radius: 25px !important;
+    padding: 10px 15px;
+    color: #000 !important;
+}
+.filterBox .ant-input::placeholder {
+    color: #000 !important;
+}
+
+.filterBox .ant-input::placeholder { 
+    color: $black!important;
+    opacity: 1; 
+  }
+.filterBox .ant-select-selection-placeholder, .filterBox .ant-select-arrow{
+    color: $black!important;
+}
+.filterBox .ant-select-multiple .ant-select-selection-item-remove>.anticon {
+    vertical-align: -0.3em;
+}
+.filterBox .ant-select-selector .ant-select-selection-item span{
+    color: $black!important;
+    line-height: 1.2;
+}
+.filterBox .ant-input {
+    border-color: $black!important;
+    border-radius: 25px!important;
+    padding: 10px 15px;
+    color: $black!important;
+}
+.filterBox .ant-select-selector, .filterBox .ant-select-selector .ant-select-selection-item{
+    border-color: $black!important;
+    border-radius: 25px!important;
+    padding: 4px 15px!important;
+    line-height: unset!important;
+}
+.filterBox .ant-select-selector{
+    background-color: #ececec!important;
+    border-width: 0!important;
+}
+.filterBox .anticon.ant-input-clear-icon, .filterBox .anticon.ant-input-clear-icon:hover{
+    color: #a3a3a3;
+}
+.filterBox .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector, .filterBox .ant-select:not(.ant-select-disabled):hover .ant-select-selector{
+    box-shadow: unset!important;
+    border-right-width: 0px!important;
+}
+.ant-select-dropdown{
+    border-radius: 25px!important;
+    background-color: #ECECEC!important;
+}
+.ant-select-dropdown .ant-select-item{
+    color: $black!important;
+    background-color: #ECECEC!important;
+}
+.ant-select-selection-placeholder{
+    padding-left: 15px;
+}
+
+// Create New Items
+
+.createNewItems .form-text {
+    font-size: 0.9em;
+     color: unset; 
+}
+
+.createNewItems .ant-input::placeholder { 
+    color: $black!important;
+    opacity: 1; 
+  }
+.createNewItems .ant-select-selection-placeholder, .createNewItems .ant-select-arrow{
+    color: $black!important;
+}
+.createNewItems .ant-select-multiple .ant-select-selection-item-remove>.anticon {
+    vertical-align: -0.3em;
+}
+.createNewItems .ant-select-selector .ant-select-selection-item span{
+    color: $black!important;
+    
+}
+.createNewItems .ant-input {
+    border-color: $black!important;
+    border-radius: 25px!important;
+    padding: 10px 15px;
+    color: $black!important;
+}
+.createNewItems .ant-select-selector, .createNewItems .ant-select-selector .ant-select-selection-item{
+    border-color: $black!important;
+    border-radius: 25px!important;
+    padding: 4px 15px!important;
+    line-height: unset!important;
+}
+.createNewItems .ant-select-selector{
+    background-color: #ececec!important;
+    border-width: 0!important;
+}
+.createNewItems .anticon.ant-input-clear-icon, .createNewItems .anticon.ant-input-clear-icon:hover{
+    color: #a3a3a3;
+}
+.createNewItems .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector, .createNewItems .ant-select:not(.ant-select-disabled):hover .ant-select-selector{
+    box-shadow: unset!important;
+    border-right-width: 0px!important;
+}
+.ant-select-dropdown{
+    border-radius: 25px!important;
+    background-color: #ECECEC!important;
+}
+.ant-select-dropdown .ant-select-item{
+    color: $black!important;
+    background-color: #ECECEC!important;
+}
+.createNewItems .ant-upload.ant-upload-drag{
+    height: 400px;
+    background: #ECECEC;
+    border-width: 0px;
+    border-radius: 25px;
+}
+
+.createNewItems .submitBtn{
+    background-color: #0001FC;
+    color: $white;
+    padding: 10px 50px;
+    border-radius: 50px;
+    outline: unset;
+    font-size: 1.2rem;
+    border-width: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+// Ant Drawer
+
+.menuDrawer .ant-drawer-content-wrapper{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.menuDrawer .ant-drawer-content {
+    background-color: $white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.menuDrawer .ant-drawer-header{
+    background: $white;
+    border-width: 0px;
+}
+.menuDrawer .ant-drawer-content .nav-link{
+    color: $black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 10px 0px;
+}
+
+.menuDrawer .ant-drawer-close{
+
+    position: absolute;
+    right: 1%;
+    color: $black;
+}
+
+.profileDraw .ant-drawer-content-wrapper,.profileDraw  .ant-drawer-content{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+// dashbordMenuModal Modal
+
+.dashbordMenuModal .ant-modal-content{
+    background-color: $white;
+    border-radius: 20px;
+    border: 1px solid #DB9125;
+}
+.dashbordMenuModal .ant-modal-header{
+    background-color: $white;
+    border-width: 0px;
+    border-radius: 20px;
+}
+.dashbordMenuModal .ant-modal-body{
+    padding-top: 20px;
+}
+.dashbordMenuModal .ant-modal-close{
+    color: $black;
+    &:focus,&:active,&:hover{
+        color: $black;
+        outline: none;
+    }
+}
+.depositTabs .ant-tabs-tab .ant-tabs-tab-btn{
+    background-color: transparent;
+    color: $black;
+    border: 1px solid $black;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.depositTabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    background-color: $blue;
+    border-color: transparent;
+    color: $white;
+}
+.depositTabs  .ant-tabs-ink-bar{
+    display: none;
+}
+
+// Wallet Dropdown
+.ant-tabs-tab+.ant-tabs-tab {
+    margin: 0 0 0 20px!important;
+}
+.walletdrop .ant-dropdown-menu-submenu-expand-icon{
+    display: none;
+}
+.walletdrop .ant-dropdown-menu-item{
+    cursor: inherit;
+}
+
+.walletdrop .ant-tabs-tab-btn{
+    color: #807B7B;
+}
+.walletdrop .ant-tabs-top>.ant-tabs-nav:before{
+    border-bottom: 1px solid #beb7b7;
+}
+
+.walletdrop .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #807B7B;
+    font-weight: 700;
+}
+.walletdrop li:hover{
+    background: #472AF3;
+    border-radius: 10px;
+}
+.walletdrop li:hover .text-dark, .walletdrop li:hover i{
+    color: $white!important;
+}
+.ant-dropdown-placement-bottomRight{
+    top: 70px!important;
+}
+.settingDrawer .ant-drawer-close{
+    margin: 0;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+   .addTokenTabs .ant-tabs-tab{
+        font-size: 12px!important;
+    }
+  }
+

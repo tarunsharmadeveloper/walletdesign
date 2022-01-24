@@ -1,0 +1,131 @@
+.iconBox {
+    // width: fit-content;
+    // border: 1px solid $black;
+    border-radius: 50%;
+    padding: 20px 22px;
+    box-shadow: 0px 0px 6px 1px #bababa;
+}
+.menuItems{
+  text-decoration: none;
+}
+.menuItems:hover .iconBox {
+  
+  box-shadow: 0px 0px 15px 1px #bababa;
+}
+.iconBox svg{
+    width: 100%;
+}
+
+.dashboardMenu .menuCard{
+  background-color: #FBF8F8;
+  border-width: 0px;
+  border-radius: 15px;
+}
+
+.buyActivityTabs .ant-tabs-nav-list{
+  background-color: #EDE9E9;
+}
+.buyActivityTabs .ant-tabs-nav:before {
+    border-bottom-color: transparent !important;
+  }
+.buyActivityTabs .ant-tabs-nav-list{
+    border: 1px solid #fff;
+    border-radius: 33px;
+    padding: 5px 5px;
+  }
+.buyActivityTabs .ant-tabs-ink-bar{
+    display: none;
+  }
+  
+.buyActivityTabs .ant-tabs-tab{
+    padding: 5px 20px;
+    font-weight: 800;
+    transition: all .5;
+  }
+.buyActivityTabs .ant-tabs-tab .ant-tabs-tab-btn:hover{
+    color: #474040;
+}
+.buyActivityTabs .ant-tabs-tab .ant-tabs-tab-btn{
+  color: #615959;
+  font-weight: 800;
+}
+.buyActivityTabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: $white;
+    font-weight: 800;
+  }
+.buyActivityTabs .ant-tabs-tab.ant-tabs-tab-active{
+    background-color: $blue;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 32px;
+  }
+
+.tokenCard{
+  border-width: 0px;
+  background: linear-gradient(270.74deg, rgba(179, 179, 179, 0) 1.56%, #EFEDED 102.43%);
+  border-radius: 12px;
+}
+.vl-left, .vl-right {
+  border-left: 1px solid rgba(0, 0, 0, 0.259);
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.vl-left {
+  left: 0;
+}
+.vl-right {
+  right: 0;
+}
+
+.tokenCard .amount{
+  color: #F59B17;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  // font-size: 31px;
+}
+
+// Input Box with Heading
+.artchive-form-box .artchive-form-input .artchive-label {
+  position: relative;
+  z-index: 2;
+  bottom: -2px;
+  left: 37px;
+  padding: 2px 10px;
+}
+.artchive-form-input .artchive-label:before {
+  content: '';
+  position: absolute;
+  background-color: #C4C4C4;
+  top: -4%;
+  bottom: 9%;
+  left: -3%;
+  right: -3%;
+  z-index: -1;
+  border-radius: 5px 5px 1px 1px;
+  -webkit-transform: perspective(10px) rotateX(3deg);
+  transform: perspective(10px) rotateX(3deg);
+}
+
+@media only screen and (max-width:"767px"){
+    .dashboardMenu .menuCard .menuItems .h5{
+      font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+  .artchive-form-box .artchive-form-input .artchive-label {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+
+  .artchive-form-box .artchive-form-input .artchive-label {
+    font-size: 10px;
+  }
+  .artchive-form-box .artchive-form-input .artchive-label {
+    font-size: 10px;
+  }
+}

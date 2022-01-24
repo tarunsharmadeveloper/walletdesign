@@ -1,0 +1,63 @@
+.bootStrapForm{
+    label{
+        font-weight: 700;
+        color: $white;
+        .subLabel{
+            font-size: 12px;
+            font-weight: 300;
+            letter-spacing: 1.1px;
+        }
+    }
+
+    .form-control{
+        background: transparent;
+        font-size: 14px;
+        height: 42px;
+        color: $white;
+        &:focus, &:hover{
+            outline: none;
+            box-shadow: none;
+            background: transparent;
+        }
+    }
+}
+.walletAddress .inputPrepand{
+    background: #D9D5D5;
+    border-radius: 10px;
+}
+.walletAddress .inputAppend{
+    background: transparent;
+    border-radius: 10px;
+}
+.walletAddress .form-control{
+    background: transparent;
+    font-size: 14px;
+    height: 42px;
+    color: $white;
+    &:focus, &:hover{
+        outline: none;
+        box-shadow: none;
+        background: transparent;
+    }
+}
+.form-control{
+    
+    &:focus, &:hover{
+        outline: none;
+        box-shadow: none;
+        background: transparent;
+    }
+}
+.checkBoxWithLink{
+    a{
+        margin-left: 5px;
+    }
+}
+
+.theme-light{
+    .checkBoxWithLink{
+        a{
+            color: $lightGray;
+        }
+    } 
+}

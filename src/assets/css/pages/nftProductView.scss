@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stick+No+Bills:wght@800&display=swap');
+
+.proPage{
+    // font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.proCard .card{
+    border-width: 0px;
+}
+.proCard .card-body{
+    margin-top: -2px;
+}
+.proCard .card-img-top{
+    border-top-left-radius: calc(1rem - 2px);
+    border-top-right-radius: calc(1rem - 2px);
+}
+.proCard .card-body .sub-title{
+    margin-top: -14px;
+}
+
+.text-dark h6{
+    color: $black!important;
+}
+
+.productAccordian .ant-collapse-item .ant-collapse-header{
+    // background-color: #000;
+    background-color: #ECECEC;
+    border-radius: 30px !important;
+    color: #000!important;
+}
+
+.productAccordian .ant-collapse-item.ant-collapse-item-active .ant-collapse-header{
+    border-radius: 20px!important;
+    border-bottom-left-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}
+
+.productAccordian .ant-collapse-ghost>.ant-collapse-item>.ant-collapse-content {
+    background-color: #F7F6F6;
+    border-top: 0;
+    color: $black;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    // border-bottom-color: $black;
+    border-bottom-color: #ececec;
+    // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+}
+
+.right-sidebar .sidebar-box{
+    background-color: #ECECEC;
+    border: 0px solid #200A0A;
+    border-radius: 10px;
+}
+.proRightCard .card{
+    border-width: 0px!important;
+    border-radius: 15px!important;
+}
+.proRightCard .cardImg{
+    border-top-left-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+}
+.proRightCard .card-body{
+    margin-top: -2px;
+}
+.proRightCard .card-body .sub-title{
+    margin-top: -14px;
+}

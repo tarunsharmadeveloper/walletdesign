@@ -1,0 +1,194 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stick+No+Bills:wght@800&display=swap');
+
+:root {
+  --dark: #000000;
+  --green: #6fcc5c;
+  --white: #000000;
+  --yellow: #ffc107;
+  /* --gold: #F6CE69;----------
+  --gold: #db9125;
+  --blue: #2196f3;
+  --red: #f44336;
+  --gray: #d3d3d3;
+  --purple: #8d8ff0;
+
+  --timesnew-font-family: 'Times New Roman', Times, serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+.text-green {
+  color: var(--green);
+}
+.font-300 {
+  font-weight: 300;
+}
+.font-600 {
+  font-weight: 600;
+}
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+
+.bg-purple {
+  background-color: var(--purple) !important;
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-gold {
+  color: var(--gold);
+}
+.text-gold:hover {
+  color: var(--gold);
+}
+.text-purple {
+  color: var(--purple);
+}
+.text-purple:hover {
+  color: var(--purple);
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-brown {
+  background-color: #1a1212 !important;
+}
+
+.font-anton{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Stick No Bills', sans-serif;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0em;
+  color: #FA8E0F;
+  text-transform: uppercase;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-poppins);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.triple-dot{
+    color: #000 !important;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0px 12px;
+    background: #F5B347;
+    border-radius: 30px;
+}
+
+.create-btn{
+    font-size: 20px;
+    color: #000;    
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px 5px;
+    border-radius: 30px;
+    background: #AD00FF;
+}
+.create-btn:hover{
+    color: #000;    
+}
+.connect-btn{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #00D863;
+}
+.profile-btn{
+    font-size: 20px;
+    color: #00D863;    
+    cursor: pointer;
+    padding: 0px 5px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.profile-btn:hover{
+    color: #00D863;
+}
+.profile-btn .user-icon{
+    color: #00D863;
+}
+.top-nav-icon {
+    color: var(--gold) !important;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+.img-box{
+    box-shadow: 0px 1px 27px 13px rgba(255, 255, 255, 0.35);
+    border-radius: 14px;
+}
+
+.detailBtn{
+    background: transparent;
+    font-size: 1rem;
+    border:1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 18px 15px;
+}
+.dashboardPage a.withGold.backBttn {
+    color: #ecb45b;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+    transition: all .5;
+}
+.dashboardPage a.withGold.backBttn:hover {
+    color: #a6abef;
+}
+
+.dashboardPage a.withGold.redo-btn {
+    color: #ecb45b;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #ECB45B;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all .5;
+}
+.dashboardPage a.withGold.dot-btn {
+    color: #ecb45b;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ECB45B;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all .5;
+}
+
+.dashboardPage .heading-box .ant-card-body{
+    padding: 0;
+    margin: 0;
+    background: transparent;
+} */

@@ -1,0 +1,137 @@
+.bgBanner{
+    background-image: url(/src/assets/images/background.png);
+    background-position-y: 35px;
+    background-position-x: -50px;
+    background-size: cover;
+    // height: 500px;
+}
+.bgBannerDark{
+    background-color: #000!important;
+    background-image: url(/src/assets/images/darkBgImg.png);
+    box-shadow:inset 0 0 0 2000px rgb(0 0 0 / 42%);
+    background-position-y: 35px;
+    background-position-x: 33em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    // height: 500px;
+}
+
+.homeBanner{
+    background-color: #000!important;
+    background-image: url(/src/assets/images/darkBgImg.png);
+    box-shadow:inset 0 0 0 2000px rgb(0 0 0 / 42%);
+    background-position-y: 35px;
+    background-position-x: 33em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bgBanner .bannerHeading{
+    font-size: 50px;
+}
+
+.bgBanner .bannerSliderBtn{
+    background-color: #ececec;
+    color: $black;
+    width: 100%;
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 10px 10px;
+}
+.bgBanner .bannerSliderBtn:hover{
+    background-color: #0001FC;
+    color: $white;
+}
+
+
+.ListSection .search-box .input-group-text{
+    background: transparent;
+    border-width: 1px;
+    border-left-width: 0;
+    border-color: $black;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+.ListSection .search-box .search-bar{
+    border-left-width: 1px;
+    background: transparent;
+    border-style: solid;
+    border-color: $black;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 0;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    padding-left: 10px;
+    color: $black;
+}
+.ListSection .search-box .search-bar:focus{
+   outline: 0;
+}
+.ListSection .search-box .search-bar::placeholder{
+    color: $black;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+.ListSection .search-box .input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0.75rem;
+}
+
+
+// Product List
+
+.scroll-white .swiper-scrollbar {
+    background: rgb(255 255 255 / 48%);
+}
+.scroll-white .swiper-scrollbar-drag {
+    background: rgb(255 255 255 / 82%);
+}
+
+@media only screen and (max-width:"768px"){
+    .bgBanner .bannerHeading {
+        font-size: 30px;
+    }
+    .bgBanner {
+        background-position-y: 0px;
+        background-position-x: 40%;
+        background-size: cover;
+        // height: 500px;
+    }
+    .bgBannerDark{
+        background-position-y: 0px;
+        background-position-x: 10%;
+        background-size: cover;
+        height: auto;
+    }
+    .homeBanner{
+        background-image: url(/src/assets/images/homeBanner.png);
+        background-position-y: 0;
+        background-position-x: 0;
+        height: 450px;
+    }
+    .profileDarkRow{
+        background-color: $black;
+        margin-top: 35%;
+        padding-bottom: 50px;
+    }
+    .profile-img{
+        position: relative;
+    }
+    
+ 
+}
+
+@media only screen and (max-width:"767px"){
+    .profile-img img{
+        position: absolute;
+        right: 5%;
+        top: -70px;
+    }
+}
+
+@media only screen and (max-width:"540px"){
+    .homeBanner{
+        height: 600px;
+    }
+}
